@@ -7,4 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AngularMaterial';
+  onClick($events : any){
+    console.log('HAHA');
+  }
 }
